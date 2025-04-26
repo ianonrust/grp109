@@ -1,1 +1,47 @@
+#title {
+  font-family: 'EchotopiaRegular';
+   font-weight: normal;
+   font-style: normal;
+  text-align: center;
+  margin: 20px 0;
+  background-color: #f0f0f0;
+  padding: 10px 0;
+  width: 100%;
+  position: relative;
+}
 
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+  margin: 0;
+}
+
+.white {
+  border: 1px solid black;
+  width: 12.5%;
+  height: 60px;
+  background-color: white;
+  box-sizing: border-box;
+}
+
+.black {
+  border: 1px solid black;
+  width: 12.5%;
+  height: 60px;
+  background-color: #787878;
+  box-sizing: border-box;
+}
+
+.clear {
+  clear: both;
+}
