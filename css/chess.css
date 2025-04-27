@@ -45,3 +45,9 @@
 .clear {
   clear: both;
 }
+
+body{
+  background-image: url('../a2/images/Background.jpg');
+  background-size: cover;
+
+}
