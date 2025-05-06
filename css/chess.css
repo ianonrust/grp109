@@ -20,9 +20,9 @@
   padding: 1vh 0;
   width: 100%;
   position: relative;
-
 }
 
+/* Container centers content vertically and horizontally */
 .container {
   display: flex;
   flex-direction: column;
@@ -33,12 +33,14 @@
   width: 80%; 
 } 
 
+/* Sets the layout for the rows */
 .row {
   display: flex;
   width: 100%;
   margin: 0;
 }
 
+/* Style for white squares */
 .white {
   border: 1px solid black;
   width: 12.5%;
@@ -47,6 +49,7 @@
   box-sizing: border-box;
 }
 
+/* Style for black squares */
 .black {
   border: 1px solid black;
   width: 12.5%;
@@ -55,6 +58,7 @@
   box-sizing: border-box;
 }
 
+/* Important to clear floated elements for future use */
 .clear {
   clear: both;
 }
