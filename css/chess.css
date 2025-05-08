@@ -1,4 +1,4 @@
-#title {
+#title { /* Ian Onrust */
   font-family: 'EchotopiaRegular';
    font-weight: normal;
    font-style: normal;
@@ -22,7 +22,7 @@
   position: relative;
 }
 
-/* Container centers content vertically and horizontally */
+/* Container centers content vertically and horizontally - Ian Onrust */
 .container {
   display: flex;
   flex-direction: column;
@@ -33,14 +33,14 @@
   width: 80%; 
 } 
 
-/* Sets the layout for the rows */
+/* Sets the layout for the rows - Ian Onrust */
 .row {
   display: flex;
   width: 100%;
   margin: 0;
 }
 
-/* Style for white squares */
+/* Style for white squares - Ian Onrust */
 .white {
   border: 1px solid black;
   width: 12.5%;
@@ -49,7 +49,7 @@
   box-sizing: border-box;
 }
 
-/* Style for black squares */
+/* Style for black squares - Ian Onrust */
 .black {
   border: 1px solid black;
   width: 12.5%;
@@ -58,7 +58,7 @@
   box-sizing: border-box;
 }
 
-/* Important to clear floated elements for future use */
+/* Important to clear floated elements for future use - Ian Onrust */
 .clear {
   clear: both;
 }
