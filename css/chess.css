@@ -9,7 +9,7 @@
   width: 100%;
   position: relative;
 }
-
+/* Styles the footer - Devin Graupmann */
 .footer {
   font-family: 'EchotopiaRegular';
   font-weight: normal;
@@ -63,12 +63,14 @@
   clear: both;
 }
 
+/* Sets the size and spacing for each chess piece - Devin Graupmann  */
 .chess-piece {
   width: 35%;
   margin-left: 30%;
   margin-top: 5%;
 }
 
+/* Sets the background image for the body and ensures it covers the entire viewport - Devin Graupmann */
 body{
   background-image: url('../a2/images/Background.jpg');
   background-size: cover;
@@ -76,6 +78,7 @@ body{
   margin: 0px;
 }
 
+/* Centers Vertically - Devin Graupmann */
 .vert-center {
   display: flex;
   flex-direction: column;
